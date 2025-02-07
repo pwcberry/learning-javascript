@@ -1,0 +1,12 @@
+{
+  "name": "learning-javascript",
+  "version": "0.1.0",
+  "description": "Small JavaScript experiments to learn the features of the language.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Peter Berry <peter.berry@rea-group.com>",
+  "license": "UNLICENSED"
+}

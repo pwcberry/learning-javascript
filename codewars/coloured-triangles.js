@@ -1,3 +1,8 @@
+/**
+ * Codewars: Coloured Triangles kata
+ *
+ * https://www.codewars.com/kata/5a25ac6ac5e284cfbe000111
+ */
 import {argv} from "node:process";
 
 function contactResult(...colors) {

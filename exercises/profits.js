@@ -73,11 +73,10 @@ function getMaximumProfitForTimeWindow(odds, duration = 3, delay = 0) {
 
 
 function main() {
-    // assert.equal(getMaximumProfit([2.0, 1.8, 3.5, 1.1, 1.7]), 1.7);
-    // assert.equal(getMaximumProfit([2.0, 1.8, 3.5, 1.1, 2.7, 3.1, 1.2, 5.1]), 4);
-    // assert.equal(getMaximumProfit([2.0, 1.8, 3.7, 1.1, 2.7, 3.1, 1.2, 3.0]), 2);
+    assert.equal(getMaximumProfit([2.0, 1.8, 3.5, 1.1, 1.7]), 1.7);
+    assert.equal(getMaximumProfit([2.0, 1.8, 3.5, 1.1, 2.7, 3.1, 1.2, 5.1]), 4);
+    assert.equal(getMaximumProfit([2.0, 1.8, 3.7, 1.1, 2.7, 3.1, 1.2, 3.0]), 2);
     assert.equal(getMaximumProfitForTimeWindow([2.0, 1.8, 3.5, 1.1, 2.7, 3.1, 1.2, 5.1]), 3.9);
-    // getMaximumProfitForTimeWindow([2.0, 1.8, 3.5, 1.1, 2.7, 3.1, 1.2, 5.1])
 }
 
 main();

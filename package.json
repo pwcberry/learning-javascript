@@ -5,8 +5,15 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretty": "prettier --write .",
+    "test": "mocha \"./**/*.spec.js\"",
+    "watch": "mocha --watch \"./**/*.spec.js\""
   },
-  "author": "Peter Berry <peter.berry@rea-group.com>",
-  "license": "UNLICENSED"
+  "author": "Peter Berry <pwcberry@gmail.com>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "chai": "^5.2.1",
+    "mocha": "^11.7.1",
+    "prettier": "^3.6.2"
+  }
 }

@@ -1,0 +1,9 @@
+# Ignore directories:
+node_modules
+.idea
+src/website/poems/
+src/website/prose/
+src/website/blog/
+
+# Ignore files:
+yarn.lock

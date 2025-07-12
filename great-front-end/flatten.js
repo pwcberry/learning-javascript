@@ -1,4 +1,4 @@
-function flatten(value) {
+export default function flatten(value) {
   if (!Array.isArray(value)) {
     return value;
   }
@@ -15,5 +15,3 @@ function flatten(value) {
 
   return result;
 }
-
-export default flatten;
